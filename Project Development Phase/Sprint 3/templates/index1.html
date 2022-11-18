@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+    <title>Crude Oil Price Prediction </title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body style="text-align:center">
+    <h1> Crude Oil Price Prediction</h1>
+    <p>   PNT2022TMID13214</p>
+    <br><br>
+    <a href="{{url_for('predict')}}"
+     style="border-radius: 9px;;padding: 10px;width: 150px;color:white;font-family: roboto;
+    height: 40px;text-align: center;background: black; text-decoration: none;font-size: 20px;">
+    Predict Oil Price</a>
+</body>
